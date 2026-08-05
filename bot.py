@@ -29,8 +29,13 @@ LANGS = {
     },
 }
 
-WELCOME_TITLE = "🔥 *Ласкаво просимо в Astel*"
-WELCOME_SUB = "Тут тільки по справі — новини, рух і спілкування.\nОбери мову / регіон:"
+WELCOME_TITLE = "🔥 *Ласкаво просимо в Astel / Welcome to Astel*"
+WELCOME_SUB = (
+    "Тут тільки по справі — новини, рух і спілкування.\n"
+    "Оберіть мову / регіон:\n\n"
+    "Here it's business only — news, movement, and community.\n"
+    "Choose your language / region:"
+)
 WELCOME_CONTACT_BTN = "💰 Співпраця / Cooperation"
 
 
@@ -90,5 +95,5 @@ def main():
     app.run_polling()
 
 
-if __name__ == "__main__":
+if name == "__main__":
     main()
